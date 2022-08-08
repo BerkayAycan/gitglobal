@@ -1,0 +1,17 @@
+cd .. => bir önceki dizine geçme
+git init => projeyi git yapar
+git add . => dosyaları git repository kısmına ekler
+git commit -m =>repository'den git deposuna aktarır
+git log => alınan bütün versiyonları listeler
+git diff => dosyaya ekleme çıkartmaları getirir
+git diff -- staged =>geçiş bölgesi ile git deposu arasındaki farklılıkları gösterir
+git add /rm => silinmiş dosyaları geçiş bölgesine ekler
+git checkout -- Dosyanınİsmi => silinmiş dosyayı kurtarır
+git rm Dosyanınİsmi =>Dosya silmek için
+git mv Dosyaİsmi1 Dosyaİsmi2 => isim değiştirme
+git mv Dosyaİsmi1 Dosyaİsmi2/ => dosya taşıma
+git reset HEAD Dosyaİsmi => geçiş bölgesinden silinmiş dosyayı geri getirme
+git checkout DosyanınNumarası -- . => versiyon değiştirme.
+git remote add TakmaAd DosyaUrl => Bağlantı belirtmek
+git remote => URL kontrol
+git push -u TakmaAd master =>push etme
