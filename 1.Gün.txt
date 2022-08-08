@@ -15,3 +15,4 @@ git checkout DosyanınNumarası -- . => versiyon değiştirme.
 git remote add TakmaAd DosyaUrl => Bağlantı belirtmek
 git remote => URL kontrol
 git push -u TakmaAd master =>push etme
+test
